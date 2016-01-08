@@ -4,6 +4,7 @@ class CreateClients < ActiveRecord::Migration
       t.string :first_name
       t.string :last_name
       t.string :company_name
+      t.string :items_bought
     end
   end
 end
